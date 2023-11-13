@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;800;900;&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.first-section{
+    width: 100%;
+    height:100vh;
+    /* border: 1px solid fuchsia; */
+    box-sizing: border-box;
+    /* opacity: 0.8; */
+    background-image: url("images/bg17.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.navbar{
+    width:75%;
+    margin-left: 13rem;
+    background-color: black;
+    opacity: none;
+}
+.nav-item .nav-link{
+    color:white;
+    margin-right: 30px;
+}
+.nav-item .nav-link:hover{
+    color:black;
+    background-color: #EBB22F;
+    /* text-decoration: underline; */
+}
+.login-btn{
+    border: 1px solid #EBB22F;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.login-btn:hover{
+    background-color: #EBB22F;
+    color:black;
+}
+.heading-container{
+    width:75%;
+    height: auto;
+    margin:auto;
+    margin-top: 30px;
+    /* border: 1px solid darkcyan; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+}
+.heading{
+    margin-left: auto;
+    font-size: 49px;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+}
+.paragraph{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+.form-container{
+    width:75%;
+    height: auto;
+    margin:auto;
+    margin-top: 30px;
+    /* border: 1px solid rgb(139, 0, 0); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+}
+.join-btn{
+    width:180px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #EBB22F;
+    background-color: #EBB22F;
+}
+.input-container{
+    width:100%;
+    height: auto;
+    margin:auto;
+    margin-top: 30px;
+    /* border: 1px solid rgb(16, 255, 4); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+}
+.input-box{
+    width:40%;
+    height:43px;
+    font-size:20 ;
+    text-align: left;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-btn{
+    width:180px;
+    font-size:19px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #EBB22F;
+    border-top-left-radius:none;
+    border-bottom-left-radius:none;
+    background-color: #EBB22F;
+}
+/* Recipi Section */
+.sec-section{
+    width:100%;
+    height:370vh;
+    /* border: 1px solid greenyellow; */
+    background: black;
+    /* background: linear-gradient(180deg, rgba(54,79,87,1) 0%, rgba(17,24,22,1) 18%, rgba(17,24,22,1) 83%); */
+    box-sizing: border-box;
+}
+.sec-container{
+    width: 100%;
+    height:300vh;
+    box-sizing: border-box;
+    /* border: 1px solid darkcyan; */
+}
+.horizontal-line{
+    width:20%;
+    margin-top: 23px;
+    height: 3px !important;
+    background-color:#EBB22F ;
+}
+.heading-mini{
+    font-size: 30px;
+    color:#D2DE32;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* content left
+ */
+.Recipe-content-left{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+    height:auto;
+    /* border: 1px solid fuchsia; */
+    display: flex;
+}
+.img-container{
+    margin:20px;
+    width: 33%;
+    height:auto;
+    /* box-shadow: #F7E987 0px 2px 4px 0px,#F7E987 0px 2px 16px 0px; */
+    /* border: 1px solid fuchsia; */
+}
+.Discription-container{
+    margin:20px;
+    width: 40%;
+    height:300px;
+    /* border: 1px solid fuchsia; */
+    font-size: 19px;
+    font-family:'Roboto';
+    color: white;
+}
+.Discription-container ul li{
+    font-family:22px
+}
+.Recipe-Name{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;   
+}
+.Discription-container a{
+    text-decoration: none;
+    color:#EBB22F;
+    font-family: 'Roboto';
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Discription-container a{
+    background-color: #EBB22F;
+    border: 1px solid #EBB22F;
+    padding:5px;
+    border-radius: 5px;
+    color: black;
+}
+.logo-container-left{
+    margin-top: -20px;
+    /* margin-left: 10px; */
+    width:150px;
+    height: 90px;
+    /* border: 1px solid darkcyan; */
+}
+.logo-container-right{
+    margin-right: 10px;
+    margin-top: -40px;
+    width:170px;
+    height: 100px;
+    color: white;
+    /* border: 1px solid darkcyan; */
+}
+/* content right  */
+.Recipe-content-right{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+    height:auto;
+    /* border: 1px solid rgb(6, 233, 13); */
+    display: flex;
+    justify-content: end;
+}
+.img-container-right{
+    margin:20px;
+    margin-top: 30px;
+    width: 33%;
+    height:300px;
+    /* box-shadow: rgb(249, 2, 2) 0px 7px 29px 0px; */
+    /* border: 1px solid rgb(6, 233, 13); */
+}
+.Discription-container-right{
+    margin:20px;
+    width: 40%;
+    height:300px;
+    /* border: 1px solid rgb(6, 233, 13); */
+    font-size: 19px;
+    font-family:'Roboto';
+    color: white;
+}
+.Discription-container-right ul li{
+    font-family:22px
+}
+.Recipe-Name-right{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 700;   
+}
+.Discription-container-right a{
+    text-decoration: none;
+    color:#EBB22F;
+    font-family: 'Roboto';
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Discription-container-right a{
+    background-color: #EBB22F;
+    border: 1px solid #EBB22F;
+    padding:5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.read-more-btn{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.read-more{
+    width:28%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding:10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color: #EBB22F;
+    border: 1px solid #EBB22F;
+    border-radius: 5px;
+}
+.read-more:hover{
+    color: black;
+}
+.Meal-Planner-heading{
+    width: 100%;
+    height:100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid darkmagenta; */
+}
+.btn-container{
+    margin-top: 12px;
+    width:100%;
+    height:200px;
+    /* border: 1px solid saddlebrown; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.meal-btn{
+    padding:15px;
+    margin-right: 20px;
+    width:20%;
+    font-size: 19px;
+    /* border: 1px solid darkblue; */
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    background: #EBB22F; 
+    color:black;
+    font-weight: 600;
+    font-family: 'Roboto'; 
+}
+.meal-btn:hover{
+    color:black;
+}
+
+.Third-sec{
+    width: 100%;
+    height:110vh;
+    margin: auto;
+    box-sizing: border-box;
+    background-image: url('images/2nd\ bggg.jpg');
+    opacity: 0.3 black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid darkblue; */
+}
+.Recipe-info{
+    width: 100%;
+    height: 110vh;
+    /* border: 1px solid darkmagenta; */
+}
+.all-card-containaer{
+    width: 79%;
+    height:110vh;
+    /* border: 1px solid #de3232;    */
+}
+.all-card-containaer .card{
+    margin-top: 40px;
+}
+.card{
+    background-color: transparent;
+}
+.card-title{
+    color:#F9B572;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 28px;
+}
+.card-text{
+    color:whitesmoke;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.card-link{
+    width: 33%;
+    display: flex;
+    padding:5px;
+    border-radius: 5px;
+    background-color: #EBB22F;
+    border: 1px solid #EBB22F;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+}
+.work-section{
+    width:100%;
+    height:80vh;
+    box-sizing: border-box;
+    background-color: black;
+}
+.work-container{
+    width: 100%;
+    height:80vh;
+    /* border: 1px solid hotpink; */
+}
+.works{
+    width:100%;
+    height:80vh;
+    /* border: 1px solid darkblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-content{
+    width:40%;
+    height:350px;
+    /* border: 1px solid darkcyan; */
+}
+.work-images{
+    width:35%;
+    height:450px;
+    box-shadow: #F7E987 0px 7px 29px 0px;
+    /* border: 1px solid darkcyan; */
+}
+.work-heading{
+    color:#F9B572;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.work-info{
+    margin-top: 20px;
+    color:whitesmoke;
+    font-size: 22px;
+    font-family: 'Roboto';
+    text-align: justify;
+}
+/* Reviews of Customers */
+.review-section{
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    background-color: black;
+    /* border:1px solid #3274de; */
+}
+.reviews-container{
+    width: 100%;
+    height:auto;
+    /* border: 1px solid rgb(255, 0, 153); */
+}
+.Review-heading{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Quote{
+    width: 100%;
+    height:100px;
+    /* border: 1px solid firebrick; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Culaninary-content{
+    width:50%;
+    font-size: 18px;
+    height:auto;
+    margin: auto;
+    color:white;
+    text-align: center;
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.snip1390 {
+  font-family: 'Roboto', Arial, sans-serif;
+  display: inline-block;
+  overflow: hidden;
+  margin: 25px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  /* background-color:#749BC2; */
+ box-shadow:#F7E987 0px 7px 29px 0px;
+  padding: 30px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1390 figcaption {
+  width: 100%;
+}
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+figure.snip1390 h2 {
+  color: white;
+  font-family: 'Roboto';
+}
+figure.snip1390 h4 {
+  color: white;
+}
+figure.snip1390 blockquote {
+  font-size: 1m;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #61677A;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.snip1390 blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
+}
+.writer-container{
+    width: 80%;
+    height:220px;
+    margin:auto;
+    margin-top: 80px;
+    /* border: 1px solid floralwhite; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-family: 'Roboto';
+}
+.wirter-text{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.writer-container .heading-moms{
+    margin-top: 18px;
+}
+.join-btn{
+    width:18%;
+    margin-top:30px;
+    font-size: 20px;
+}
+.try-moms{
+    margin-bottom: 20px;
+}
+.suscribe-section{
+    width: 100%;
+    height:300px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.suscribe-container{
+    width:100%;
+    height:300px;
+    /* border: 1px solid firebrick; */
+    background-image: url("images/suuu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.suscribe-box{
+    width:100%;
+    height: 300px;
+    /* border: 1px solid fuchsia; */
+    position: relative;
+}
+.suscribe-heading{
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.suscribe-input-box{
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    left:30%;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.suscribe-btn{
+    position: absolute;
+    left:45%;
+    top:35%;
+    width:9%;
+    padding:5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:black;
+}
+.Footer-section{
+    width: 100%;
+    height: 280px;
+    box-sizing: border-box;
+    /* border: 1px solid darkcyan; */
+    background-color: black;
+}
+.footer-container{
+    padding: 20px;
+    margin-top: 0px;
+    width:80%;
+    height:280px;
+    /* border: 1px solid firebrick; */
+}
+.li-link{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: "Roboto";
+    text-align: left;
+    color:white;
+}
+.li-link a {
+    text-decoration: none;
+    color:white;
+}
+.footer-heading{
+    font-weight: 700;
+    font-size: 33px;
+    font-family:"Roboto";
+    color:white;
+}
+.footer-content{
+    font-weight: 400;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: justify;
+    color:white;
+}
+.col-two ul{
+    margin-top: 50px;
+    /* border: 1px solid darkblue; */
+}
+.col-three ul{
+    margin-top: 50px;
+    /* border: 1px solid darkblue; */
+}
+.col-four ul{
+    margin-top: 50px;
+    /* border: 1px solid darkblue; */
+}
+.hed-li-link{
+    font-size: 25px;
+    font-family: "Roboto";
+    list-style: none;
+    font-weight: 900;
+    color: White;
+}
+.buttom-login-btn{
+    background-color:#EBB22F ;
+    color:black;
+    border: none;
+    font-weight: 700;
+}
